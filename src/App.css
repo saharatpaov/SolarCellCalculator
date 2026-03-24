@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  padding: 2rem;
+}
+
+.App-header {
+  padding: 2rem 0;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+  
+  .App {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+}
